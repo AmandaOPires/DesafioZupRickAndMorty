@@ -21,15 +21,15 @@ pegarPersonagem = () => {
 
        const lista_detalhes = document.createElement("ul");
        const detalhe_nome = document.createElement("li");
-       detalhe_nome.innerHTML = `nome: ${data.name}`;
+       detalhe_nome.innerHTML = `Nome: ${data.name}`;
        lista_detalhes.insertAdjacentElement("beforeend", detalhe_nome);
 
        const detalhe_especie = document.createElement("li");
-       detalhe_especie.innerHTML = `especie: ${data.species}`;
+       detalhe_especie.innerHTML = `Especie: ${data.species}`;
        lista_detalhes.insertAdjacentElement("beforeend", detalhe_especie);
        
        const detalhe_status = document.createElement("li");
-       detalhe_status.innerHTML = `status: ${data.status}`;
+       detalhe_status.innerHTML = `Status: ${data.status}`;
        lista_detalhes.insertAdjacentElement("beforeend", detalhe_status);
 
        caixa_personagem.insertAdjacentElement("beforeend", lista_detalhes);

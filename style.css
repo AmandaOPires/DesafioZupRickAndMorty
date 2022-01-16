@@ -3,7 +3,7 @@ body {
         180deg,
         #6495ED 5%,
         #00FFFF 20%,
-        #008B8B 60%,
+        #483D8B 60%,
         #00CED1 95%
     );
     margin: 0;
@@ -30,10 +30,10 @@ main > section img {
 }
 
 main > button {
-    background-color: #F08080;
+    background-color: #939797;
     border: none;
     border-radius: 4px;
-    bottom: 100px;
+    bottom: 200px;
     color: white;
     font-family: EuclidBold;
     font-size: 18px;
@@ -46,7 +46,7 @@ main > button {
 
 }
 
-#detalhes-container {
+main > section > ul p{
     font-weight: bold;
     list-style-type: none;
     width: 90%;
