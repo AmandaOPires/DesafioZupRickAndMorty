@@ -22,7 +22,7 @@ pegarPersonagem = () => {
         imagem.alt = data.name;
         nomeDoPersonagem.innerHTML = data.name;
         especie.innerHTML = data.species;
-        condicao.innerHTML = data.status(data);
+        condicao.innerHTML = data.status;
     });
 }
 
